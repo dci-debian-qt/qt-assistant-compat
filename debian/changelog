@@ -1,0 +1,5 @@
+qt-assistant-compat (4.6.3-1) experimental; urgency=low
+
+  * Initial release. (Closes: #587488)
+
+ -- Fathi Boudra <fabo@debian.org>  Mon, 28 Jun 2010 17:41:20 +0300

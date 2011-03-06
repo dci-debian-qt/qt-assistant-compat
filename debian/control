@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>
 Build-Depends: debhelper (>= 7.4.15), libqt4-dev (>= 4:4.7.0~)
-Standards-Version: 3.9.0
+Standards-Version: 3.9.1
 Section: devel
 Homepage: http://doc.qt.nokia.com/4.6/qassistantclient.html
 Vcs-Git: git://git.debian.org/pkg-kde/qt/qt-assistant-compat.git

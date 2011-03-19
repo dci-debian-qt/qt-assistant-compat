@@ -1,10 +1,11 @@
-qt-assistant-compat (4.6.3-3) UNRELEASED; urgency=low
+qt-assistant-compat (4.6.3-3) unstable; urgency=low
 
   * Use pkgkde-symbolshelper and fix issues with the symbol file.
     (Closes: #617657)
   * Add myself to Uploaders.
+  * Urgency=high as it's important for ongoing transitions.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 19 Mar 2011 11:52:40 +0200
+ -- Modestas Vainius <modax@debian.org>  Sat, 19 Mar 2011 11:59:03 +0200
 
 qt-assistant-compat (4.6.3-2) unstable; urgency=low
 

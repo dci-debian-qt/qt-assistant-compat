@@ -1,3 +1,8 @@
+qt-assistant-compat (4.6.3-3) UNRELEASED; urgency=low
+
+
+ -- Modestas Vainius <modax@debian.org>  Sat, 19 Mar 2011 11:52:40 +0200
+
 qt-assistant-compat (4.6.3-2) unstable; urgency=low
 
   * Upload to Sid.

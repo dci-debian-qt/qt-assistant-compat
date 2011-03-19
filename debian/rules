@@ -7,7 +7,7 @@ export QMAKE := /usr/bin/qmake-qt4
 export LRELEASE := /usr/bin/lrelease-qt4
 
 %:
-	dh $@ --parallel --list-missing
+	dh $@ --with=pkgkde-symbolshelper --parallel --list-missing
 
 override_dh_auto_configure:
 	dh_auto_configure

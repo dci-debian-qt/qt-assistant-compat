@@ -2,6 +2,7 @@ qt-assistant-compat (4.6.3-3) UNRELEASED; urgency=low
 
   * Use pkgkde-symbolshelper and fix issues with the symbol file.
     (Closes: #617657)
+  * Add myself to Uploaders.
 
  -- Modestas Vainius <modax@debian.org>  Sat, 19 Mar 2011 11:52:40 +0200
 

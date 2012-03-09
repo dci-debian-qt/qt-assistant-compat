@@ -23,6 +23,7 @@ override_dh_auto_clean:
 	dh_auto_clean
 	dh_auto_clean --sourcedirectory=lib
 	rm -f translations/assistant_adp_*.qm
+	rm -rf lib/lib
 
 override_dh_auto_install:
 	dh_auto_install

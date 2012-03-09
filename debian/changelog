@@ -4,6 +4,7 @@ qt-assistant-compat (4.6.3-4) UNRELEASED; urgency=low
   * Use dh_auto_* instead of calling (q)make directly for the library.
   * Switch to debhelper compat level v9 which exports build flags.
   * Bump Standards-Version to 3.9.3, no changes needed.
+  * Append -Wl,--as-needed to LDFLAGS.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 09 Mar 2012 11:32:59 +0100
 

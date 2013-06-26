@@ -11,6 +11,7 @@ qt-assistant-compat (4.6.3-5) UNRELEASED; urgency=low
   * Update standars version. No changes required.
   * Add myself to Uploaders.
   * Use canonical Vcs fields.
+  * Update symbols file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Jun 2013 00:14:07 -0300
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.6.3 amd64
+# SymbolsHelper-Confirmed: 4.6.3 alpha amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc powerpcspe ppc64 s390 s390x sparc sparc64 x32
 libQtAssistantClient.so.4 libqtassistantclient4 #MINVER#
  (optional=external)_ZN10QByteArrayD1Ev@Base 4.6.3
  (optional=external)_ZN10QByteArrayD2Ev@Base 4.6.3
@@ -25,12 +25,12 @@ libQtAssistantClient.so.4 libqtassistantclient4 #MINVER#
  _ZN16QAssistantClientD2Ev@Base 4.6.3
  (optional=templinst)_ZN4QMapIPK16QAssistantClientP23QAssistantClientPrivateE13detach_helperEv@Base 4.6.3
  (optional=templinst)_ZN4QMapIPK16QAssistantClientP23QAssistantClientPrivateE6removeERKS2_@Base 4.6.3
- (optional=templinst)_ZN5QListI7QStringE13detach_helperEi@Base 4.6.3
- (optional=templinst)_ZN5QListI7QStringE13detach_helperEv@Base 4.6.3
+ (optional=templinst|arch=armel hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 sparc sparc64)_ZN5QListI7QStringE13detach_helperEi@Base 4.6.3
+ (optional=templinst|arch=alpha ia64 mips mipsel)_ZN5QListI7QStringE13detach_helperEv@Base 4.6.3
  (optional=templinst)_ZN5QListI7QStringE18detach_helper_growEii@Base 4.6.3
  (optional=templinst)_ZN5QListI7QStringE6appendERKS0_@Base 4.6.3
- (optional=templinst)_ZN5QListI7QStringED1Ev@Base 4.6.3
- (optional=templinst)_ZN5QListI7QStringED2Ev@Base 4.6.3
+ (optional=templinst|arch=amd64 x32)_ZN5QListI7QStringED1Ev@Base 4.6.3
+ (optional=templinst|arch=amd64 x32)_ZN5QListI7QStringED2Ev@Base 4.6.3
  (optional=external)_ZN7QStringD1Ev@Base 4.6.3
  (optional=external)_ZN7QStringD2Ev@Base 4.6.3
  _ZNK16QAssistantClient10metaObjectEv@Base 4.6.3

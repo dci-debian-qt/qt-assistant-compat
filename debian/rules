@@ -24,6 +24,7 @@ override_dh_auto_clean:
 	dh_auto_clean --sourcedirectory=lib
 	rm -f translations/assistant_adp_*.qm
 	rm -rf lib/lib
+	rm -f debian/qt-assistant-compat.links
 
 override_dh_auto_install:
 	dh_auto_install
@@ -45,3 +46,9 @@ override_dh_auto_install:
 	# Install missing headers
 	install -p -m0644 $(CURDIR)/debian/include/Q* \
 	    $(CURDIR)/debian/tmp/usr/include/qt4/QtAssistant/
+
+override_dh_install:
+	# Replace the correct arch triplet using the templates.
+	sed s/%DEB_HOST_MULTIARCH%/$(DEB_HOST_MULTIARCH)/ \
+	debian/qt-assistant-compat.links.in > debian/qt-assistant-compat.links
+	dh_install

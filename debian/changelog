@@ -3,6 +3,11 @@ qt-assistant-compat (4.6.3-5) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make sure we use Qt 4 for building by setting QT_SELECT = qt4.
     Now there is no need to use lrelease-qt4 anymore.
+  * Fix FTBFS caused by the change of binaries path due to the introduction of
+    qtchooser (Closes: #713250).
+    - assistant_adp is now in a M-A qualified path. Fix install file.
+    - Create a link of the above binary to /usr/bin/. Use a template file to
+      create the correct path. Clean the generated file when running dh_clean.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Jun 2013 00:14:07 -0300
 

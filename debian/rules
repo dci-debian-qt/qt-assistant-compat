@@ -4,8 +4,8 @@
 #export DH_VERBOSE=1
 
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
-
-export LRELEASE := /usr/bin/lrelease-qt4
+export QT_SELECT := qt4
+export LRELEASE := /usr/bin/lrelease
 
 %:
 	dh $@ --with=pkgkde-symbolshelper --parallel --list-missing

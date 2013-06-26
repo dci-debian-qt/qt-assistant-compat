@@ -1,5 +1,9 @@
 qt-assistant-compat (4.6.3-5) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make sure we use Qt 4 for building by setting QT_SELECT = qt4.
+    Now there is no need to use lrelease-qt4 anymore.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Jun 2013 00:14:07 -0300
 
 qt-assistant-compat (4.6.3-4) unstable; urgency=low

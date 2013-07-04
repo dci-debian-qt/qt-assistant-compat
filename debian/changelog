@@ -1,10 +1,9 @@
-qt-assistant-compat (4.6.3-6) UNRELEASED; urgency=low
+qt-assistant-compat (4.6.3-6) unstable; urgency=low
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Fix substitution pattern in debian/qt-assistant-compat.links.in
    (Closes: #713250).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 04 Jul 2013 19:59:31 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 04 Jul 2013 20:04:29 -0300
 
 qt-assistant-compat (4.6.3-5) unstable; urgency=low
 

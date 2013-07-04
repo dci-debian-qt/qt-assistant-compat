@@ -1,1 +1,1 @@
-usr/lib/DEB_HOST_MULTIARCH/qt4/bin/assistant_adp usr/bin/assistant_adp
+usr/lib/%DEB_HOST_MULTIARCH%/qt4/bin/assistant_adp usr/bin/assistant_adp

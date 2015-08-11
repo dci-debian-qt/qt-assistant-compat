@@ -2,6 +2,7 @@ qt-assistant-compat (4.6.3-7) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildds' logs.
+  * Update Standards-Version to 3.9.6, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 11 Aug 2015 18:33:09 -0300
 
